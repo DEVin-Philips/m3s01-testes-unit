@@ -5,6 +5,7 @@ public enum Operacao {
     ADICAO,
     SUBTRACAO,
     DIVISAO,
-    MULTIPLICACAO;
+    MULTIPLICACAO,
+    INEXISTENTE;
 
 }

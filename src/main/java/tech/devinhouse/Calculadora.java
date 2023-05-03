@@ -16,6 +16,7 @@ public class Calculadora {
                 break;
             case MULTIPLICACAO:
                 resultado = valor1 * valor2;
+                break;
             default:
                 throw new IllegalArgumentException("Operacao nao informada!");
         }
