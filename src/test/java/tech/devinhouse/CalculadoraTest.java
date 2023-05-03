@@ -17,7 +17,7 @@ class CalculadoraTest {
 
     @Nested
     class CalcularAdicaoTest {
-        
+
         @Test
         @DisplayName("Quando soma dois numeros positivos, deve retornar um nro positivo")
         void calcular_adicao() {
@@ -56,7 +56,6 @@ class CalculadoraTest {
         }
 
     }
-
 
     @Nested
     class CalcularInexistente {
